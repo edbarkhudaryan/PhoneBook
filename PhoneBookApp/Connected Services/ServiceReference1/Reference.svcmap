@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="14ada77b-67ec-4466-8572-abf4beb3194a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:59890/ServicePhoneBook.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServicePhoneBook.xsd" MetadataType="Schema" ID="091dd49c-9d8e-4fa6-a0a6-349fdf15c5de" SourceId="1" SourceUrl="http://localhost:59890/ServicePhoneBook.svc?xsd=xsd2" />
+    <MetadataFile FileName="ServicePhoneBook.wsdl" MetadataType="Wsdl" ID="3abde081-6d4b-489f-a814-4fec4341c452" SourceId="1" SourceUrl="http://localhost:59890/ServicePhoneBook.svc?wsdl" />
+    <MetadataFile FileName="ServicePhoneBook1.xsd" MetadataType="Schema" ID="2a86ad65-ef23-4aa8-925c-358c19a29223" SourceId="1" SourceUrl="http://localhost:59890/ServicePhoneBook.svc?xsd=xsd0" />
+    <MetadataFile FileName="ServicePhoneBook2.xsd" MetadataType="Schema" ID="c4fa52e6-a454-4d83-9237-adec97ce92b4" SourceId="1" SourceUrl="http://localhost:59890/ServicePhoneBook.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServicePhoneBook.disco" MetadataType="Disco" ID="16e64597-9004-4da8-853a-5d20a51d2375" SourceId="1" SourceUrl="http://localhost:59890/ServicePhoneBook.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
